@@ -6,26 +6,31 @@ import Welcome1 from './Components/Welcome1';
 import Hello from './Components/Hello';
 import Name from './Components/Name';
 import Test from './Components/Test';
+import Message from './Components/Message1';
+import Counter from './Components/Counter';
+import HookCounter from './Components/CounterHook';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App"> 
       <header className="App-header">
         <img src={Mypic} className="App-logo" alt="logo" />
         <p>
           Govinda....welcome to the react world!
           </p>
+         
            <Welcome />
           <Welcome1 name="Govinda" />
           < Test subject = "automation" />
-          <button> Button </button>
           <Hello /> 
           <Name  name1 = "Amru" city = "Bangalore"/>
           <Name name1 = "Gsr" city = "Hyderabad" >
             <p>Hi ,This is children props.</p>
             <button>Try now</button>
             </Name>
-        
+            <Message />
+            <Counter />
+            <HookCounter />
         <a
           className="App-link"
           href="https://reactjs.org"
