@@ -9,12 +9,21 @@ import Test from './Components/Test';
 import Message from './Components/Message1';
 import Counter from './Components/Counter';
 import HookCounter from './Components/CounterHook';
+import HookName from './Components/HookName';
+import HookAddItem from './Components/AddItemHook';
+import TitleCount from './Components/TitleHookEffect';
+import DateShow from './Components/ClassDate';
+import DateShow1 from './Components/DateShowHook';
 
 function App() {
   return (
     <div className="App"> 
       <header className="App-header">
+      <DateShow />
+      <DateShow1 />
         <img src={Mypic} className="App-logo" alt="logo" />
+       <HookName />
+        <TitleCount />
         <p>
           Govinda....welcome to the react world!
           </p>
@@ -30,7 +39,7 @@ function App() {
             </Name>
             <Message />
             <Counter />
-            <HookCounter />
+            <HookCounter /> 
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -39,6 +48,7 @@ function App() {
         >
           Learn React with Amru
         </a>
+        <HookAddItem /> 
       </header>
     </div>
   );

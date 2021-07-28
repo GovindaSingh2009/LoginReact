@@ -3,7 +3,7 @@ function HookCounter (){
    /* useState () : Which accepts the initial value of the state variable and returns a pair of values 
 i.e current value of state variable and method which will update state variable.*/
  const initialcount = 0;   
-const [count , setCount ]=useState(initialcount)  
+const [count , setCount ]=useState(initialcount)  //variable as input
 
 const incrementFive = () =>{
     for (let i=0;i<5;i++)

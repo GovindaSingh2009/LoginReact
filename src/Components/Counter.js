@@ -10,9 +10,9 @@ class Counter extends Component{
     increment(){
        this.setState(
        {count : this.state.count + 1 },
-     ()=> {console.log('callback Value' , this.state.count)}
+     ()=> {console.log('callback Value' , this.state.count)}//callback function console log
        ) 
-       console.log(this.state.count);
+       console.log(this.state.count); // Synchronus console log statements
                       
     }
 render(){
