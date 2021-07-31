@@ -12,7 +12,7 @@ const Name = props =>{
     //we have wrapped everything in simgle div tag as JSX we have should contain only one wrapper element.
     return (
         <div> 
-            <h3>Hello {props.name1} you live in {props.city} </h3>
+            <h4>Hello {props.name1} you live in {props.city} </h4>
     {props.children}
     </div>
     )

@@ -1,9 +1,9 @@
 import React,{useState} from 'react';
 function HookAddItem () {
-const[item,setItems] = useState([])
+const[item,setItems] = useState([])  //array as input
 
 const addItem = ()=>{
-    setItems ([...item,
+    setItems ([...item, //spread operator
     {id : item.length ,value : Math.floor(Math.random()*10)+1}
     ])
 }
